@@ -25,7 +25,10 @@
 
 ## 3. Not .Net Remoting support any more
 
-
+## 4. SignalR not released yet
+* Microsoft.AspNet.SignalR  => Microsoft.AspNetCore.SignalR  alpha1 0.2.0  https://github.com/aspnet/SignalR
+* Hub.Context.Request.GetHttpContext().Session => Hub.Context.Request.HttpContext.Session
+* Hub.Context.Request.Cookies["key"].value => Hub.Context.Request.Cookies["key"]
 
 
 
